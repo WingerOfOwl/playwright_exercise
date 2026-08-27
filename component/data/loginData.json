@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "description": "Login sukses"
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "description": "User terkunci - harus gagal",
+      "expectedError": "Epic sadface: Sorry, this user has been locked out."
+    },
+    {
+      "username": "problem_user",
+      "password": "secret_sauce",
+      "description": "Login sukses (tapi UI bermasalah)"
+    },
+    {
+      "username": "performance_glitch_user",
+      "password": "secret_sauce",
+      "description": "Login sukses tapi lambat"
+    }
+  ]
+}
